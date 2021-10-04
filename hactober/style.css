@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background: #379ac496;
+}
+
+.nav {
+  background: #017FB5;
+  width: 100%;
+  height: 110px;
+  padding: 30px;
+  margin-right: 20px;
+  /* align-items: center; */
+}
+
+.nav a {
+  text-decoration: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 10px;
+  color: white;
+  float: right;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.nav a.logo-left{
+  float: left;
+  margin-left: 35px;
+}
+.nav a.logo-left img{
+  width: 58px;
+  height: 35px;
+  /* padding-bottom: 12px; */
+}
+
+.content {
+  margin-top: 65px;
+}
+.content h1{
+  font-family: 'Yatra One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 85px;
+  text-align: center;
+  color: #FFFF;
+  padding-bottom: 32px;
+}
+
+.photos p {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 1.2px;
+  word-spacing: 3px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #FFFF;
+}
+
+.photos {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.shirt,.prize,.stickers
+{
+  width: 33.3%;
+  text-align: center;
+}
+
+.photos img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  margin-top: 45px;
+}
+
+.free {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+
+  background: #017FB5;
+  align-content: center;
+  padding: 15px;
+  border: none;
+  border-radius: 10%;
+  font-size: 20px;
+  
+}
+
+button a{
+  text-decoration: none;
+  color: #FFFF;
+}
+
+button:hover {
+  cursor: pointer;
+  padding: 16px;
+}
