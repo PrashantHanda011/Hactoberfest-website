@@ -5,22 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 785px )"  href="media.css">
+
+
 </head>
 
 <body>
-    <div class="navbar">
-        <ul class="topNav">
-            <li><a href="../index.html">
-                    <img src="logo.png" id="logo" alt>
-                </a></li>
-                <li class="topNav-right"><a href="../index.html">HOME</a></li>
-            <li class="topNav-right"><a href="https://linktr.ee/dsc128">CONTACT US</a></li>
-            <li class="topNav-right"><a href="#">FAQs</a></li>
-            <li class="topNav-right"><a href="../hactober/index.html">GOODIES</a></li>
-        </ul>
+    <div class="container">
+        <button id='icon-open'><i class="fas fa-bars icon"></i></button>
+        <div class="nav" id="hero-nav">
+            <!-- <ul class="topNav"> -->
+            <!-- <li> -->
+            <a href="../index.html" class="logo-left">
+                <img src="logo.png" id="logo" alt="" />
+            </a>
+            <!-- </li> -->
+            <!-- <li class="topNav-right"> -->
+                <a href="https://linktr.ee/dsc128">CONTACT US</a>
+                <!-- </li> -->
+                <!-- <li class="topNav-right"> -->
+                    <a href="#">FAQs</a>
+                    <!-- </li> -->
+                    <!-- <li class="topNav-right"> -->
+                        <a href="../rules/index.html">RULES</a>
+                        <!-- </li> -->
+                        <!-- <li class="topNav-right"> -->
+                            <a href="../hactober/index.html">GOODIES</a>
+                            <!-- </li> -->
+                            <!-- </ul> -->
+                            <a href="../about hacktoberfest/index.html">ABOUT US</a>
+            <button id='icon-close'><i class="fas fa-times icon"></i></button>
+        </div>
     </div>
-
     <div class="row">
         <div class="imageClass">
             <img src="rules.jpg" class="comingSoonImg">
@@ -29,7 +47,7 @@
             <p class="heading">RULES</p>
 
             <p>
-                Pull requests can be made in any participating GitHub or GitLab hosted repository/projects. 
+                Pull requests can be made in any participating GitHub or GitLab hosted repository/projects.
                 Look for the 'hacktoberfest' topic to know if a project is participating in Hacktoberfest.
                 <br><br>
                 You can sign up anytime between October 1 and October 31.
@@ -39,17 +57,22 @@
                 <br><br>
                 1)The pull request must contain commits you made yourself.
                 <br>
-                2)If a maintainer reports your pull request as spam, it will not be counted toward your participation in Hacktoberfest.
+                2)If a maintainer reports your pull request as spam, it will not be counted toward your participation in
+                Hacktoberfest.
                 <br>
-                3)If a maintainer reports behavior that’s not in line with the project’s code of conduct, you will be ineligible to participate.
+                3)If a maintainer reports behavior that’s not in line with the project’s code of conduct, you will be
+                ineligible to participate.
                 <br>
-                4)A pull request is considered approved once it has an overall approving review from maintainers, or has been merged by maintainers, or has been given the 'hacktoberfest-accepted' label.
+                4)A pull request is considered approved once it has an overall approving review from maintainers, or has
+                been merged by maintainers, or has been given the 'hacktoberfest-accepted' label.
                 <br>
-   
+
 
             </p>
         </div>
     </div>
+    </div>
+    <script src="../main.js"></script>
 </body>
 
 </html>
